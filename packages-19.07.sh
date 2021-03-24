@@ -1,5 +1,5 @@
 #!/bin/bash
-svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
+svn co https://github.com/WoChen5770/AdGuardHome/trunk/adguardhome
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/gost
 svn co https://github.com/kongfl888/luci-app-adguardhome/trunk ./luci-app-adguardhome
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ntlf9t/luci-app-advancedsetting
