@@ -32,15 +32,6 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-Butterfly-dark
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-Butterfly
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-argon-mc
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-argon-mod
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-argonv2
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-argonv3
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-darkmatter
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-infinityfreedom
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-netgearv2
 svn co https://github.com/rosywrt/luci-theme-rosy/trunk/luci-theme-rosy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusic
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo
@@ -93,13 +84,11 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_dnspod
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
 git clone https://github.com/yiguihai/luci-app-passwall-plus
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/openwrt-udpspeeder
 git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ntlf9t/openwrt-Pcap_DNSProxy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ntlf9t/dnscrypt-proxy-full
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcppingull
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ntlf9t/openwrt-udp2raw
 svn co https://github.com/obsy/packages/trunk/3ginfo
