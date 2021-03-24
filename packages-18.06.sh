@@ -83,7 +83,6 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-frps
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliyun
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_dnspod
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
-git clone https://github.com/yiguihai/luci-app-passwall-plus
 git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-Pcap_DNSProxy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
