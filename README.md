@@ -1,12 +1,10 @@
 # openwrt-packages
-国内常用OpenWrt软件包源码合集，每天定时自动更新
-
+收集常用的OpenWrt软件包源码合集，方便编译。
+每天定时自动更新
 
 18.06版luci请使用packages-18.06分支
 
-
 19.07版luci请使用packages-19.07分支
-
 
 
 ## 食用方式（方法3为18.06例子）：
