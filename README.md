@@ -1,5 +1,5 @@
 # openwrt-packages
-收集常用的OpenWrt软件包源码合集，方便编译。
+为了方便编译，收集常用的OpenWrt软件包源码。
 每天定时自动更新
 
 18.06版luci请使用packages-18.06分支
