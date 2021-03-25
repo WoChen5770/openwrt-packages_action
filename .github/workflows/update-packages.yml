@@ -53,7 +53,7 @@ jobs:
         if [ "`ls -A $GITHUB_WORKSPACE/${{matrix.target}}`" != "" ];
         then 
         git add .
-        git commit -m "update$(TZ='Asia/Shanghai' date +@%Y-%m-%-号 %H:%M)"
+        git commit -m "update$(TZ='Asia/Shanghai' date +@%Y-%m-%d %H:%M)"
         git push --quiet "https://${{ secrets.GIT_TOKEN }}@github.com/WoChen5770/openwrt-packages.git" HEAD:${{matrix.target}}
         fi
 
