@@ -1,7 +1,7 @@
 #!/bin/bash
 svn co https://github.com/WoChen5770/AdGuardHome/trunk/adguardhome
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/gost
-svn co https://github.com/kongfl888/luci-app-adguardhome/trunk ./luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt/branches/19.07/package/diy/luci-app-adguardhome
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ntlf9t/luci-app-advancedsetting
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
