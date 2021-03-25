@@ -8,7 +8,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: 0 */12 * * *
+    - cron: 0 4,17 * * *
   workflow_dispatch:
 
 env:
@@ -59,7 +59,7 @@ jobs:
         if [ "`ls -A $GITHUB_WORKSPACE/${{matrix.target}}`" != "" ];
         then 
         git add .
-        git commit -m "update$(TZ='Asia/Shanghai' date +@%Y年%m月%d号-%H点%M分)"
+        git commit -m "update$(TZ='Asia/Shanghai' date +@%Y-%m-%-号 %H:%M)"
         git push --quiet "https://${{ secrets.GIT_TOKEN }}@github.com/WoChen5770/openwrt-packages.git" HEAD:${{matrix.target}}
         fi
 
