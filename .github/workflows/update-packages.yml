@@ -1,12 +1,6 @@
 name: Update packages
 
 on:
-  repository_dispatch:
-  release:
-    types: published
-  push:
-    branches:
-      - main
   schedule:
     - cron: 0 4,17 * * *
   workflow_dispatch:
