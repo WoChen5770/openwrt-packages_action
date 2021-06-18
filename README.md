@@ -2,9 +2,9 @@
 为了方便编译，收集常用的OpenWrt软件包源码。
 每天定时自动更新
 
-18.06版luci请使用packages-18.06分支
+18.06版luci请使用master分支
 
-19.07版luci请使用packages-19.07分支
+19.07版luci请使用19.07分支
 
 
 ## 食用方式（方法3为18.06例子）：
@@ -19,5 +19,5 @@
 ```
 3. 先cd进package目录，然后执行
 ```bash
- svn co https://github.com/WoChen5770/openwrt-packages/branches/packages-18.06
+ svn co https://github.com/WoChen5770/openwrt-packages/branches/master
 ```
