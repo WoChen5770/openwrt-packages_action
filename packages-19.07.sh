@@ -23,6 +23,7 @@ svn co https://github.com/fw876/helloworld/trunk ./
 rm -rf .svn
 #
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./luci-app-passwall
+svn co https://github.com/garypang13/luci-app-bypass/trunk ./luci-app-bypass
 svn co https://github.com/msylgj/luci-app-tencentddns/trunk ./luci-app-tencentddns
 #
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
